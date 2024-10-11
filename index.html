@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website for Software Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div class="fluid-container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- home page -->
+                    <div class="home-page-bg-container">
+                        <div class="nav-container">
+                            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                                <div class="container-fluid">
+                                    <a class="navbar-brand" href="#">Logo</a>
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                        <div class="navbar-nav nav-links">
+                                            <a aria-current="page" href="#homePage">Home</a>
+                                            <a href="#aboutus">About Us</a>
+                                            <a href="#servicePage">Services</a>
+                                            <a href="#contactUsPage">Contact Us</a>
+                                            <button class="nav-button">LogIn</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </nav>
+                        </div>
+                        <div id="homePage" class="home-page-container">
+                            <div class="home-page-content-container">
+                                <h1>Techy Software</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis voluptatum voluptatem consectetur quas obcaecati reiciendis commodi non placeat fugiat laboriosam qui debitis, labore eveniet?</p>
+                                <div class="d-flex flex-row">
+                                    <button class="home-first-btn">Our Services</button>
+                                    <button class="home-last-btn">Contact Us</button>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start mt-2">
+                                    <i class="fa-brands fa-facebook home-content-icons"></i>
+                                    <i class="fa-brands fa-youtube pl-5 home-content-icons"></i>
+                                    <i class="fa-brands fa-linkedin pl-5 home-content-icons"></i>
+                                    <i class="fa-brands fa-twitter pl-5 home-content-icons"></i>
+                                </div>
+                            </div>
+                            <div class="d-none d-md-block">
+                                <img src="home-page-img.png" class="home-page-img" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- about us page -->
+                    <div id="aboutus" class="about-page-container">
+                        <p class="aboutus-heading-para">About Us</p>
+                        <div class="aboutus-card">
+                            <div>
+                                <h1>Our Mission</h1>
+                                <p>At Techy Software Company, our mission is to empower businesses through innovative software solutions. We strive to enhance operational efficiency and drive growth by delivering tailored technology that meets the unique needs of our clients.</p>
+                            </div>
+                            <img src="our-mission-img.jpg" />
+                        </div>
+                        <div class="aboutus-card-2">
+                            <div class="order-2">
+                                <h1>What We Do</h1>
+                                <p>At Techy Software Company, we empower businesses with innovative software solutions to enhance efficiency and drive growth. Specializing in web development, digital marketing, SEO, cybersecurity, graphic design, and app development, we create tailored solutions using the latest technologies. Our commitment to client satisfaction drives us to understand your challenges and deliver high-quality results that exceed expectations and foster long-term partnerships.</p>
+                            </div>
+                            <img class="order-1" src="ai-img.webp" />
+                        </div>
+                        <div class="aboutus-card mb-5">
+                            <div>
+                                <h1>Why Choose Us?</h1>
+                                <p>What sets Techy Software Company apart is our unwavering commitment to client satisfaction. We prioritize understanding your challenges and collaborate closely with you to deliver innovative, high-quality solutions that exceed expectations and foster long-term partnerships</p>
+                            </div>
+                            <img src="our-mission-img.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <!-- Services page -->
+                <div class="services-page-container" id="servicePage">
+                    <p class="services-heading-para">Our Services</p>
+                    <h1 class="services-main-heading">What we're Offering?</h1>
+                    <p class="services-main-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, aut labore non voluptatem nobis magnam.</p>
+                    <div class="services-card-container">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="services-card">
+                                <i class="fa-solid fa-code services-card-icon"></i>
+                                <h2>Web Development</h2>
+                                <p class="services-card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facilis similique quos totam excepturi officia iusto ad at modi, eos voluptas voluptatum perferendis illo et!</p>
+                                <p class="services-learn-more">Learn More <span>&#8594</span></p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="services-card">
+                                <i class="fa-solid fa-volume-high services-card-icon"></i>
+                                <h2>Digital Marketing</h2>
+                                <p class="services-card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facilis similique quos totam excepturi officia iusto ad at modi, eos voluptas voluptatum perferendis illo et!</p>
+                                <p class="services-learn-more">Learn More <span>&#8594</span></p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="services-card">
+                                <i class="fa-solid fa-magnifying-glass services-card-icon"></i>
+                                <h2>SEO Services</h2>
+                                <p class="services-card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facilis similique quos totam excepturi officia iusto ad at modi, eos voluptas voluptatum perferendis illo et!</p>
+                                <p class="services-learn-more">Learn More <span>&#8594</span></p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="services-card">
+                                <i class="fa-solid fa-bug services-card-icon"></i>
+                                <h2>Cyber Security</h2>
+                                <p class="services-card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facilis similique quos totam excepturi officia iusto ad at modi, eos voluptas voluptatum perferendis illo et!</p>
+                                <p class="services-learn-more">Learn More <span>&#8594</span></p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="services-card">
+                                <i class="fa-solid fa-palette services-card-icon"></i>
+                                <h2>Graphic Design</h2>
+                                <p class="services-card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facilis similique quos totam excepturi officia iusto ad at modi, eos voluptas voluptatum perferendis illo et!</p>
+                                <p class="services-learn-more">Learn More <span>&#8594</span></p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="services-card">
+                                <i class="fa-solid fa-mobile-screen-button services-card-icon"></i>
+                                <h2>App Development</h2>
+                                <p class="services-card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facilis similique quos totam excepturi officia iusto ad at modi, eos voluptas voluptatum perferendis illo et!</p>
+                                <p class="services-learn-more">Learn More <span>&#8594</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Us page -->
+                <div class="contactus-container" id="contactUsPage">
+                    <p class="contactus-main-heading-para">Contact</p>
+                    <h1 class="contactus-main-heading">Contact Us For Any Questions</h1>
+                    <p class="contactus-main-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorem illum accusantium, maiores necessitatibus fuga.</p>
+                    <div class="contactus-form-infor-container">
+                        <div class="col-12 col-md-4 d-none d-md-block">
+                            <div class="contactus-left-container">
+                                <h2>Contact Info</h2>
+                                <div class="d-flex flex-row contactus-left-inf">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <p>techysoftware@gmail.com</p>
+                                </div>
+                                <div class="d-flex flex-row contactus-left-inf">
+                                    <i class="fa-solid fa-mobile"></i>
+                                    <p>+123 456 789</p>
+                                </div>
+                                <div class="d-flex flex-row contactus-left-inf">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p>chennai 600001</p>
+                                </div>
+                                <div class="d-flex flex-row contactus-left-inf">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <p>_techy_Software_</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8" id="formContainer">
+                            <form class="form-container" id="form">
+                                <input id="nameInput" type="text" placeholder="Name" />
+                                <small id="nameErrorMag" class="errormsg"></small>
+                                <input id="emailInput" type="email" placeholder="Email" />
+                                <small id="emailErrorMsg" class="errormsg"></small>
+                                <textarea id="textareaInput" rows="10" cols="50" placeholder="Message"></textarea>
+                                <small id="textareaErrorMsg" class="errormsg"></small>
+                                <button id="submitBtn" class="form-btn">Send Now</button>
+                            </form>
+                        </div>
+                        <div class="col-12 col-md-8 d-none" id="greenTick">
+                            <div class="green-tick-container">
+                                <img src="green-tick.png" alt="successfull" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <footer class="footer-bg">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <h1 class="footer-logo">Techy Software</h1>
+                        <p class="footer-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam provident, sed nobis ipsum voluptates debitis?</p>
+                        <div>
+                            <h1 class="footer-followus-heading">Follow Us</h1>
+                            <div>
+                                <i class="fa-brands fa-facebook footer-icons"></i>
+                                <i class="fa-brands fa-youtube pl-5 footer-icons"></i>
+                                <i class="fa-brands fa-linkedin pl-5 footer-icons"></i>
+                                <i class="fa-brands fa-twitter pl-5 footer-icons"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div>
+                            <div class="footer-contact-us-container">
+                                <h2>Contact Info</h2>
+                                <div class="d-flex flex-row contactus-left-inf ml-0">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <p>techysoftware@gmail.com</p>
+                                </div>
+                                <div class="d-flex flex-row contactus-left-inf ml-0">
+                                    <i class="fa-solid fa-mobile"></i>
+                                    <p>+123 456 789</p>
+                                </div>
+                                <div class="d-flex flex-row contactus-left-inf ml-0">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p>chennai 600001</p>
+                                </div>
+                                <div class="d-flex flex-row contactus-left-inf ml-0">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <p>_techy_Software_</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="footer-services-container">
+                            <h1>Services</h1>
+                            <ul>
+                                <li>Web Development</li>
+                                <li>Digital Marketing</li>
+                                <li>SEO Services</li>
+                                <li>Cyber Security</li>
+                                <li>Graphic Design</li>
+                                <li>App Development</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <hr>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
