@@ -399,6 +399,8 @@
     margin-left: 15px;
     width: 100%;
     max-width: 700px;
+    max-height: 300px;
+    overflow-y: auto;
 }
 
 .aboutus-card img {
@@ -466,6 +468,12 @@
 
 
 @media screen and (max-width:768px) {
+    .about-page-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
     .aboutus-heading-para {
         margin-left: 10px;
     }
@@ -481,6 +489,8 @@
     }
 
     .aboutus-card img {
+        height:200px;
+        width:200px;
         order: -1;
         align-self: center;
     }
@@ -496,8 +506,8 @@
     }
 
     .aboutus-card-2 img {
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
         order: -1;
         align-self: center;
     }
@@ -690,6 +700,8 @@
     padding: 20px 50px;
 }
 
+
+
 .contactus-main-heading-para {
     color: var(--green-color);
     font-size: 26px;
@@ -783,6 +795,8 @@
 }
 
 
+
+
 /* contact us left container */
 
 .contactus-left-container {
@@ -818,6 +832,17 @@
     font-size: 24px;
     color: #E3E6E4;
 
+}
+
+@media screen and (max-width:768px) {
+    .contactus-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contactus-left-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 /* form container */
@@ -939,6 +964,8 @@
         flex-direction: column;
         justify-content: center;
         gap: 30px;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
