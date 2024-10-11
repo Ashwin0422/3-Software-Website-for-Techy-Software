@@ -609,6 +609,7 @@
     transition: color 300ms ease-in-out;
     z-index: 1;
     overflow: hidden;
+    flex-grow: 1;
 }
 
 
@@ -986,7 +987,7 @@
         flex-direction: column;
         justify-content: center;
         gap: 30px;
-        padding-left: 0;
+        padding-left: 5px;
         padding-right: 0;
     }
 }
